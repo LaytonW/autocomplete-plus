@@ -200,6 +200,7 @@ class SuggestionListElement extends HTMLElement
       event.abortKeyBinding()
 
   renderList: ->
+    # TODO: Config descriptionContainer etc. for different settings.
     @innerHTML = ListTemplate
     @ol = @querySelector('.list-group')
     @scroller = @querySelector('.suggestion-list-scroller')
