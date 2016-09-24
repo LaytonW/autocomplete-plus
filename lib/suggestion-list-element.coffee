@@ -16,6 +16,9 @@ ListTemplate = """
   <div class="suggestion-list-scroller">
     <ol class="list-group"></ol>
   </div>
+"""
+
+DescriptionTemplate = """
   <div class="suggestion-description">
     <span class="suggestion-description-content"></span>
     <a class="suggestion-description-more-link" href="#">More..</a>

@@ -211,6 +211,17 @@
       "type": "boolean",
       "default": false,
       "order": 21
+    },
+    "positionSuggestionDescription": {
+      "description": "Position of suggestion description",
+      "type": "string",
+      "default": "Bottom",
+      "enum": [
+        "Bottom",
+        "Next to selected item",
+        "Right"
+      ],
+      "order": 22
     }
   }
 }
